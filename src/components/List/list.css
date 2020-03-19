@@ -1,0 +1,67 @@
+body{
+    width: 100%;
+
+}
+
+.element{
+    margin: 0 auto;
+    border: 1px solid lightblue;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(209, 242, 235, 1);
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.checkBox{
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+.id{
+    margin-right: 10px;
+}
+
+.important{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+.important,
+.delete,
+.doneButton{
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    outline: none;
+}
+
+.important:hover,
+.delete:hover,
+.doneButton:hover{
+    border: 2px solid rgba(213, 219, 219, 0.8);
+    background-color: rgba(213, 219, 219, 0.8);
+    box-shadow: 0 0 3px black;
+}
+
+.importantTask{
+    background-color: lightblue;
+    border: 2px solid rgba(174, 214, 241, 1);
+    box-shadow: 3px 3px 5px black;
+}
+
+.doneInfo{
+    text-decoration: line-through;
+    display: flex;
+    align-items: center;
+}
+

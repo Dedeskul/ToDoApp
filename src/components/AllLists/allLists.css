@@ -1,0 +1,7 @@
+.allTasksList{
+    padding: 20px 0 20px 0;
+    border: 2px solid rgba(118, 215, 196, 0.5);
+    box-shadow: 0 0 45px rgba(209, 242, 235, 1);
+    width: 65%;
+    margin: 0 auto;
+}
