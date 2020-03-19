@@ -1,13 +1,13 @@
 import React from "react";
-import Task from "./list";
+import Task from "../List/list";
 import './allLists.css';
 
-export default function AllLists({tasks, check, checkElement}) {
+export default function AllLists({activeTasks, doneTasks, check, checkElement, deleteTask}) {
 
     return (
         <div>
             <ul className="allTasksList">
-                {tasks.map((task, index) => {
+                {[...activeTasks, ...doneTasks].map((task, index) => {
                     return (
                         <Task
                             task={task}
@@ -15,6 +15,7 @@ export default function AllLists({tasks, check, checkElement}) {
                             index={index}
                             checked={check}
                             doneTasks={checkElement}
+                            deleteThisTask={deleteTask}
                         />)
                 })}
             </ul>

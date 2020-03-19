@@ -14,11 +14,17 @@ body{
     padding: 5px 5px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(209, 242, 235, 1);
+    background-color: white;
+}
+
+.element:hover{
+    box-shadow: 0 0 5px lightgrey;
 }
 
 .info{
     display: flex;
     align-items: center;
+    padding: 0 10px;
 }
 
 .checkBox{
@@ -54,9 +60,8 @@ body{
 }
 
 .importantTask{
-    background-color: lightblue;
-    border: 2px solid rgba(174, 214, 241, 1);
-    box-shadow: 3px 3px 5px black;
+    background-color: rgba(123,55,123, 0.1);
+    border: 1px solid lightcoral;
 }
 
 .doneInfo{
